@@ -78,8 +78,8 @@ Reading view نمایش مرجع است. رفتار Source mode، ذخیرهٔ `
 نیازمندی: **Node.js 22** و npm.
 
 ```bash
-git clone --branch refactor/clean-calendar-api https://github.com/Ali-Nourix/Ultimate-Persian-Calendar.git
-cd Ultimate-Persian-Calender
+git clone --branch main https://github.com/Ali-Nourix/Ultimate-Persian-Calendar.git
+cd Ultimate-Persian-Calendar
 npm ci
 npm run build
 ```
