@@ -1,3 +1,7 @@
+![Ultimate Persian Calendar — project cover](docs/images/readme-cover-20261023.svg)
+
+<sub>کاور مفهومی تولیدشده با هوش مصنوعی؛ اسکرین‌شات برنامه نیست.</sub>
+
 <div align="center">
 
 ![Ultimate Persian Calendar — تقویم شمسی برای Obsidian](docs/images/cover.svg)
@@ -16,6 +20,16 @@
 ![Mobile Support](https://img.shields.io/badge/mobile-supported-2EA44F?style=flat-square)
 
 </div>
+
+## از اینجا شروع کنید
+
+| نیاز شما | راهنما |
+| --- | --- |
+| کاربر افزونه | [نصب](#نصب) · [استفاده](#استفاده) |
+| توسعه‌دهندهٔ افزونهٔ دیگر | [مرجع API](docs/API.md) · [نمونهٔ مصرف‌کننده](docs/examples/picker-consumer.ts) |
+| عبارت‌ها و انتشار | [عبارت‌های زنده](docs/LIVE-EXPRESSIONS.md) · [انتشار](docs/RELEASING.md) |
+
+API انتخاب تاریخ، محلی و داخل Obsidian است؛ سرویس HTTP یا API ابری نیست.
 
 ## این پلاگین چیست؟
 
@@ -64,7 +78,7 @@ Reading view نمایش مرجع است. رفتار Source mode، ذخیرهٔ `
 نیازمندی: **Node.js 22** و npm.
 
 ```bash
-git clone --branch refactor/clean-calendar-api https://github.com/Ali-Nourix/Ultimate-Persian-Calender.git
+git clone --branch refactor/clean-calendar-api https://github.com/Ali-Nourix/Ultimate-Persian-Calendar.git
 cd Ultimate-Persian-Calender
 npm ci
 npm run build
